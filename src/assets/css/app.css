@@ -1,0 +1,170 @@
+/*== 
+ * Vue.js & TailwindCSS Portfolio Main CSS File
+ * Powered by: @realstoman
+*/
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/* Custom Styles Below */
+
+body {
+	font-family: 'Poppins-Regular';
+}
+
+/* Theme Colors */
+
+/* Fonts */
+@font-face {
+	font-family: 'Poppins-Extralight';
+	src: url('../fonts/Poppins-ExtraLight.ttf') format('truetype');
+	font-weight: 200;
+	font-display: swap;
+	font-style: normal;
+}
+
+.font-general-extralight {
+	font-family: 'Poppins-ExtraLight';
+}
+
+@font-face {
+	font-family: 'Poppins-ExtraLightItalic';
+	src: url('../fonts/Poppins-ExtraLightItalic.ttf') format('truetype');
+	font-weight: 200;
+	font-display: swap;
+	font-style: italic;
+}
+
+.font-general-extralight-italic {
+	font-family: 'Poppins-ExtraLightItalic';
+}
+
+@font-face {
+	font-family: 'Poppins-Light';
+	src: url('../fonts/Poppins-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-display: swap;
+	font-style: normal;
+}
+
+.font-general-light {
+	font-family: 'Poppins-Light';
+}
+
+@font-face {
+	font-family: 'Poppins-LightItalic';
+	src: url('../fonts/Poppins-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-display: swap;
+	font-style: italic;
+}
+
+.font-general-light-italic {
+	font-family: 'Poppins-LightItalic';
+}
+
+@font-face {
+	font-family: 'Poppins-Regular';
+	src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}
+
+.font-general-regular {
+	font-family: 'Poppins-Regular';
+}
+
+@font-face {
+	font-family: 'Poppins-Italic';
+	src: url('../fonts/Poppins-Italic.ttf') format('truetype');
+	font-weight: 400;
+	font-display: swap;
+	font-style: italic;
+}
+
+.font-general-italic {
+	font-family: 'Poppins-Italic';
+}
+
+@font-face {
+	font-family: 'Poppins-Medium';
+	src: url('../fonts/Poppins-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-display: swap;
+	font-style: normal;
+}
+
+.font-general-medium {
+	font-family: 'Poppins-Medium';
+}
+
+@font-face {
+	font-family: 'Poppins-MediumItalic';
+	src: url('../fonts/Poppins-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-display: swap;
+	font-style: italic;
+}
+
+.font-general-medium-italic {
+	font-family: 'Poppins-MediumItalic';
+}
+
+@font-face {
+	font-family: 'Poppins-Semibold';
+	src: url('../fonts/Poppins-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-display: swap;
+	font-style: normal;
+}
+
+.font-general-semibold {
+	font-family: 'Poppins-Semibold';
+}
+
+@font-face {
+	font-family: 'Poppins-SemiboldItalic';
+	src: url('../fonts/Poppins-SemiBoldItalic.ttf') format('truetype');
+	font-weight: 600;
+	font-display: swap;
+	font-style: italic;
+}
+
+.font-general-semibold-italic {
+	font-family: 'Poppins-SemiBoldItalic';
+}
+
+@font-face {
+	font-family: 'Poppins-Bold';
+	src: url('../fonts/Poppins-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-display: swap;
+	font-style: normal;
+}
+
+.font-general-bold {
+	font-family: 'Poppins-Bold';
+}
+
+@font-face {
+	font-family: 'Poppins-BoldItalic';
+	src: url('../fonts/Poppins-BoldItalic.ttf') format('truetype');
+	font-weight: 700;
+	font-display: swap;
+	font-style: italic;
+}
+
+.font-general-bold-italic {
+	font-family: 'Poppins';
+}
+
+/* Active class for navigation menu */
+.router-link-active,
+.router-link-exact-active {
+	@apply text-pink-800;
+	@apply text-pink-600 dark:text-pink-300;
+}
